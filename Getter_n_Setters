@@ -1,0 +1,18 @@
+const person = {
+    ID: 1023,
+    person_name: 'Ramesh',
+    get getName()
+    {
+        return this.person_name;
+    },
+    get getId()
+    {
+        return this.ID;
+    }
+}
+
+console.log(person.person_name)
+console.log(person.ID)
+
+console.log(person.getName)
+console.log(person.getId)
